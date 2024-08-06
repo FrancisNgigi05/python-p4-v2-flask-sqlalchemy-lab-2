@@ -1,8 +1,8 @@
 """add review
 
-Revision ID: c58f0a4d85f4
-Revises: 5acc0c2814ec
-Create Date: 2024-04-11 02:11:26.131511
+Revision ID: 025c06e47ddb
+Revises: f5c8afe271fa
+Create Date: 2024-08-06 09:03:07.292695
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'c58f0a4d85f4'
-down_revision = '5acc0c2814ec'
+revision = '025c06e47ddb'
+down_revision = 'f5c8afe271fa'
 branch_labels = None
 depends_on = None
 
